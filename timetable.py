@@ -7,8 +7,8 @@ def getTimetable(day=datetime.date.today()):
     s = webuntis.Session(
         server='neilo.webuntis.com',
         school='bg-brg-keimgasse',
-        username='of261002',
-        password='7mof0975!',
+        username='',
+        password='',
         useragent='Odis-WebUntis-Scraper'
     )
 
